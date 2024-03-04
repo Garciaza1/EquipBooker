@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "EquipReservs\\Controllers\\": ["app/Controllers"],
+            "EquipReservs\\Models\\": ["app/Models"],
+            "EquipReservs\\System\\":["app/system"]
+        },
+        "files": [
+            "app/config.php",
+            "app/helpers/functions.php"
+        ]
+    }
+}
