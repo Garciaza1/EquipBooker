@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="<?= IMAGE_PATH . "logao"?>" type="image/png">
+    <link rel="shortcut icon" href="<?= IMAGE_PATH . "logao.png"?>" type="image/png">
     <title><?= APP_NAME ?></title>
 
     <!-- google fonts -->
@@ -20,31 +20,14 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!--  intl-tel-input  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-
-
-    <!-- flatpickr -->
-    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/dark.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
     <!-- datatables -->
     <link href="https://cdn.datatables.net/v/dt/dt-1.13.7/datatables.min.css" rel="stylesheet">
-    <!--   JQuery   -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script defer src="https://cdn.datatables.net/v/dt/dt-1.13.7/datatables.min.js"></script>
 
     <!-- links dos arquivos assets -->
     <link rel="stylesheet" href="<?= CSS_PATH ?>">
     <script defer src="<?= JS_PATH ?>"></script>
-    <!-- CONT IMAGE_PATH . " NOME DA IMAGEM " -->
 
-    <link rel="icon" href="<?= IMAGE_PATH . '' ?>" type="image/x-icon"> <!-- mudar logo -->
     <title>EquipReservs</title>
-    <!--colocar icone no site-->
 
 
 </head>

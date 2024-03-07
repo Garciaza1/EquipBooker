@@ -1,5 +1,5 @@
 <div class="container mt-5">
-    <h1>Tabela de Reservas</h1>
+    <h1>Suas Reservas</h1>
     <?php if (empty($data['reservas'])) : ?>
         <br>
         <h3>Ainda não existem reservas. Faça uma agora mesmo -> <a href="?ct=main&mt=nova_reserva">Aqui!</a></h3>

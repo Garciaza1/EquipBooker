@@ -51,7 +51,7 @@ if (check_session()) {
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="?ct=main&mt=logout"><i class="fa-solid fa-right-from-bracket me-2"></i>Sair</a></li>
-                        <li><a class="dropdown-item" href="?ct=main&mt=cadastro"><i class="fa-solid fa-address-card me-2"></i>Cadastrar Professor</a></li>
+                        <!-- <li><a class="dropdown-item" href="?ct=main&mt=cadastro"><i class="fa-solid fa-address-card me-2"></i>Cadastrar Professor</a></li> -->
                     </ul>
                 </div>
 

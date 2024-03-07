@@ -52,7 +52,7 @@ $id = $_GET['id'];
                                         <!-- Colunas para Salas 1 a 4 -->
                                         <div class="col-6">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="sala" id="radio_1" value="Sala 1 (Televisão, Kit multimídia)">
+                                                <input class="form-check-input" type="radio" name="sala" id="radio_1" value="Sala 1 (Televisão, Kit multimídia)" checked>
                                                 <label class="form-check-label" for="radio_1">
                                                     Sala 1 (Televisão, Kit multimídia)
                                                 </label>
