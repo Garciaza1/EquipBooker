@@ -21,17 +21,6 @@
                             <div class="mb-3 text-center pt-2">
                                 <button type="submit" class="btn btn-secondary px-4">Entrar<i class="fa-solid fa-right-to-bracket ms-2"></i></button>
                             </div>
-                            <div class="mb-3 text-center pt-2">
-                                <a class="btn btn-secondary px-4" href="?ct=main&mt=home" style="text-decoration: none; color: white;">Voltar<i class="fa-solid fa-igloo  ms-2"></i></a>
-                            </div>
-
-                            <div class="mb-3 text-center pt-2">
-                                <a href="?ct=main&mt=cadastro">Não Tenho Cadastro</a>
-                                <hr>
-                                <div class="pt-2">
-                                    <a href="?ct=reset&mt=pass_recover_form">Esqueci-me da senha!</a>
-                                </div>
-                            </div>
 
                             <?php if(!empty($validation_errors)): ?>
                                 <div class="alert alert-danger p-2 text-center">

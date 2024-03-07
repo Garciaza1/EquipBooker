@@ -10,7 +10,7 @@ function check_session()
 // =======================================================
 function get_active_user_name()
 {
-    return $_SESSION['user']->name;
+    return $_SESSION['user']['nome'];
 }
 
 // =======================================================

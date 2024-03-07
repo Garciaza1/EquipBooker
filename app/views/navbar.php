@@ -38,7 +38,7 @@ if (check_session()) {
 
         <div class="text-center col-4 pt-4">
             <?php if ($logado) : ?>
-                <h2>Bem-vindo! <span class="" style=" font-style: italic;"><?= $primeiro_nome ?></span></h2>
+                <h2>Bem-vindo! <span style=" font-style: italic;"><?= get_active_user_name(); // trocar por $primeiro nome caso necessario ?></span></h2>
             <?php endif; ?>
         </div>
 

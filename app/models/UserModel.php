@@ -202,25 +202,6 @@ class UserModel extends Database
         }
     }
 
-    // ultimo inssert userdata da pessoa
-    public function get_last_reserv_data($UserId)
-    {
-        $stmt = $this->conn->prepare("SELECT * FROM reservas WHERE UserId = :UserId  ORDER BY id DESC LIMIT 1");
-        $stmt->bindParam(':UserId', $UserId);
-
-        try {
-            $stmt->execute();
-        } catch (Throwable $e) {
-            echo '<pre>';
-            print_r($stmt);
-            echo '<br>';
-            print_r($e);
-        }
-
-        $user_data = $stmt->fetch(PDO::FETCH_ASSOC);
-
-        return $user_data;
-    }
 
     // para fazer o edit 
     public function get_1_reserv($id)
@@ -244,7 +225,6 @@ class UserModel extends Database
     }
 
     //UPDATES
-
     public function reserv_edit($data_inicio, $data_fim, $sala, $equipamento, $id)
     {
         // declaração das variaveis do professor que está usando
